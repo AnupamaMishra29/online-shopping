@@ -5,7 +5,7 @@
 	<artifactId>onlineshopping</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>onlineshopping Maven Webapp</name>
+	<name>Onlineshopping Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
 
@@ -15,6 +15,13 @@
 
 	</properties>
 	<dependencies>
+	
+	<!--  Link backend project -->
+	<dependency>
+	<groupId>net.anu</groupId>
+  <artifactId>shoppingbackend</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  </dependency>
 		<!-- JAVA EE API -->
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>
